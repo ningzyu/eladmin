@@ -331,7 +331,7 @@ CREATE TABLE `sys_menu` (
   `pid` bigint(20) DEFAULT NULL COMMENT '上级菜单ID',
   `sub_count` int(5) DEFAULT 0 COMMENT '子菜单数目',
   `type` int(11) DEFAULT NULL COMMENT '菜单类型',
-  `title` varchar(255) DEFAULT NULL COMMENT '菜单标题',
+  `title` varchar(255) DEFAULT NULL CO MMENT '菜单标题',
   `name` varchar(255) DEFAULT NULL COMMENT '组件名称',
   `component` varchar(255) DEFAULT NULL COMMENT '组件',
   `menu_sort` int(5) DEFAULT NULL COMMENT '排序',
